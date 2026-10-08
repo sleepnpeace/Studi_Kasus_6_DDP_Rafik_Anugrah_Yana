@@ -13,15 +13,15 @@ Kode ini berfungsi untuk import library json ke file python dan membuat function
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/2.png)
 
-Kode ini merupakan function untuk menampilkan barang, jadi disini function baca data di panggil menggunakan barang, lalu terdapat print untuk menampilkan judul, lalu terdapat kondisi jika jumlah data dalam barang adalah 0, jika iya maka program akan menampilkan  pesan "Belum ada data barang.". Jika terdapat data, bagian for i, data in enumerate(barang, 1) akan melakukan perulangan untuk setiap barang sekaligus memberikan nomor mulai dari 1, lalu data['nama'], data['stok'], dan data['harga'] digunakan untuk mengambil nama, stok, dan harga dari setiap barang dan menampilkannya.
+Kode ini merupakan function untuk menampilkan barang, jadi disini function baca data di panggil menggunakan barang, lalu terdapat print untuk menampilkan judul, lalu terdapat kondisi jika jumlah data dalam barang adalah 0, jika iya maka program akan menampilkan  pesan "Belum ada data barang.". Jika terdapat data, bagian for i, data in enumerate(barang, 1) akan melakukan perulangan untuk setiap barang sekaligus memberikan nomor mulai dari 1, lalu data['nama'], data['stok'], dan data['harga'] digunakan untuk mengambil nama, stok, dan harga dari setiap barang dan menampilkannya
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/3.png)
 
-Kode ini merupakan function tambah barang yang berfungsi untuk menambah data ke dalam file json, Program mengambil data lama dari baca_data() yang di definisikan menjadi barang, kemudian meminta nama, stok, dan harga barang. try-except digunakan untuk memastikan stok dan harga berupa angka. Setelah itu, data baru dimasukkan menggunakan append(), lalu json.dump() menyimpan kembali seluruh data ke file JSON.
+Kode ini merupakan function tambah barang yang berfungsi untuk menambah data ke dalam file json, Program mengambil data lama dari baca_data() yang di definisikan menjadi barang, kemudian meminta nama, stok, dan harga barang. try-except digunakan untuk memastikan stok dan harga berupa angka. Setelah itu, data baru dimasukkan menggunakan append(), lalu json.dump() menyimpan kembali seluruh data ke file JSON
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/4.png)
 
-Kode ini merupakan function untuk tampilan menu, while True membuat menu terus muncul sampai pengguna memilih keluar, kemudian input() digunakan untuk menerima pilihan 1–3. Jika memilih 1, program menjalankan tampilkan_barang(), jika memilih 2 menjalankan tambah_barang(), dan jika memilih 3, break menghentikan perulangan dan program selesai. Jika input selain 1–3, program menampilkan pesan "Pilihan tidak valid.". Terakhir, menu() digunakan untuk menjalankan fungsi tersebut. 
+Kode ini merupakan function untuk tampilan menu, while True membuat menu terus muncul sampai pengguna memilih keluar, kemudian input() digunakan untuk menerima pilihan 1–3. Jika memilih 1, program menjalankan tampilkan_barang(), jika memilih 2 menjalankan tambah_barang(), dan jika memilih 3, break menghentikan perulangan dan program selesai. Jika input selain 1–3, program menampilkan pesan "Pilihan tidak valid.". Terakhir, menu() digunakan untuk menjalankan fungsi tersebut
 
 2. Output Program
 
