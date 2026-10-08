@@ -13,7 +13,7 @@ Kode ini berfungsi untuk import library json ke file python dan membuat function
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/2.png)
 
-Kode ini merupakan function untuk menampilkan barang, jadi disini function baca data di panggil menggunakan barang, lalu terdapat print untuk menampilkan judul dan kondisi jika jumlah data dalam barang adalah 0, jika iya maka program akan menampilkan  pesan "Belum ada data barang.". Jika terdapat data, bagian for i, data in enumerate(barang, 1) akan melakukan perulangan untuk setiap barang sekaligus memberikan nomor mulai dari 1, lalu data['nama'], data['stok'], dan data['harga'] digunakan untuk mengambil nama, stok, dan harga dari setiap barang dan menampilkannya.
+Kode ini merupakan function untuk menampilkan barang, jadi disini function baca data di panggil menggunakan barang, lalu terdapat print untuk menampilkan judul, lalu terdapat kondisi jika jumlah data dalam barang adalah 0, jika iya maka program akan menampilkan  pesan "Belum ada data barang.". Jika terdapat data, bagian for i, data in enumerate(barang, 1) akan melakukan perulangan untuk setiap barang sekaligus memberikan nomor mulai dari 1, lalu data['nama'], data['stok'], dan data['harga'] digunakan untuk mengambil nama, stok, dan harga dari setiap barang dan menampilkannya.
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/3.png)
 
