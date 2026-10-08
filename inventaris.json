@@ -1,0 +1,22 @@
+[
+    {
+        "nama": "Beras",
+        "stok": 12,
+        "harga": 15000
+    },
+    {
+        "nama": "Kecap",
+        "stok": 15,
+        "harga": 7000
+    },
+    {
+        "nama": "Telur",
+        "stok": 20,
+        "harga": 3000
+    },
+    {
+        "nama": "Tepung",
+        "stok": 10,
+        "harga": 15000
+    }
+]
