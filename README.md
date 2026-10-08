@@ -51,4 +51,4 @@ Tampilan ketika keluar dari program
 
 ![alt text](https://github.com/sleepnpeace/Studi_Kasus_6_DDP_Rafik_Anugrah_Yana/blob/main/images/output%205.png)
 
-Bukti jika data masih kesimpan saat ingin lihat di dalam program
+Bukti jika data masih kesimpan saat ingin run ulang program dan ingin melihat di dalam program
