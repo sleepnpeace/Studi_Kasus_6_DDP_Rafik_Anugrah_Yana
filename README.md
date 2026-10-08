@@ -1,7 +1,9 @@
 # Studi_Kasus_6_DDP_Rafik_Anugrah_Yana
 
 Nama: Rafik Anugrah Yana
+
 NIM: 2609116086
+
 Kelas: C 2026
 
 1.Penjelasan singkat program
